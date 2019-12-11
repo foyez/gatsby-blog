@@ -7,7 +7,7 @@ const ContactPage = () => (
   <Layout>
     <Head title='Contact' />
     <h1>Contact</h1>
-    <p>To reach me is via <a href='https://www.twitter.com/@foyezar' target='_blank'>@foyezar</a> Twitter!</p>
+    <p>To reach me is via <a href='https://www.twitter.com/@foyezar' rel='noopener noreferrer' target='_blank'>@foyezar</a> Twitter!</p>
   </Layout>
 )
 
