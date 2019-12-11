@@ -13,11 +13,13 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .nav-item {
   color: #999;
-  font-size: .9rem;
+  // font-size: .9rem;
+  font-size: 22px;
   margin-right: 1.3rem;
   text-decoration: none;
 
@@ -29,3 +31,39 @@
 .active-nav-item {
   color: #333;
 }
+
+/* Dark mode styles */
+.dark-switcher {
+  color: #fff;
+  margin-top: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .dark-switcher {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+}
+
+.theme-icon {
+  height: 22px;
+  width: 22px;
+  min-width: 22px;
+  // height: .9rem;
+  // width: .9rem;
+  // min-width: .9rem;
+  margin-bottom: 0;
+}
+
+// @media (min-width: 620px) {
+//   .theme-icon {
+//     height: 22px;
+//     width: 22px;
+//     min-width: 22px;
+//     margin-bottom: 0;
+//   }
+// }

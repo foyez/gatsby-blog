@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <footer className={ classes.footer }>
-      <p>Created by { data.site.siteMetadata.author }, &copy; 2019</p>
+      <p>Created by { data.site.siteMetadata.author }, &copy; { new Date().getFullYear() }</p>
     </footer>
   )
 }
