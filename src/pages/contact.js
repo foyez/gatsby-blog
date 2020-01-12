@@ -7,7 +7,15 @@ const ContactPage = () => (
   <Layout>
     <Head title='Contact' />
     <h1>Contact</h1>
-    <p>To reach me is via <a href='https://www.twitter.com/@foyezar' rel='noopener noreferrer' target='_blank'>@foyezar</a> Twitter!</p>
+    <p>
+      <strong>Email:</strong> <a href='foyezar[AT]gmail[DOT]com' rel='noopener noreferrer' target='_blank'>foyezar@gmail.com</a>
+    </p>
+    <p>
+      <strong>Github:</strong> <a href='https://github.com/foyezar' rel='noopener noreferrer' target='_blank'>foyezar</a>
+    </p>
+    <p>
+      <strong>Linkedin:</strong> <a href='https://www.linkedin.com/in/foyezar' rel='noopener noreferrer' target='_blank'>foyezar</a>
+    </p>
   </Layout>
 )
 
