@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 
 import logo from '../img/logo.svg'
 import ThemeContext from '../context/ThemeContext'
@@ -44,7 +44,7 @@ export default class Navigation extends Component {
           <div className="brand">
             <Link className={ classes.logoLink } to="/">
               <img src={ logo } className={ classes.logo } alt="logo Diskette" />
-              <span className="text">Kazi Foyez Ahmed</span>
+              <span className={ classes.text }>Kazi Foyez Ahmed</span>
             </Link>
           </div>
           <div className={ classes.links }>
