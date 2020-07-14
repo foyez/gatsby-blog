@@ -11,10 +11,10 @@ const ContactPage = () => (
       <strong>Email:</strong> <a href='foyezar[AT]gmail[DOT]com' rel='noopener noreferrer' target='_blank'>foyezar@gmail.com</a>
     </p>
     <p>
-      <strong>Github:</strong> <a href='https://github.com/foyezar' rel='noopener noreferrer' target='_blank'>foyezar</a>
+      <strong>Github:</strong> <a href='https://github.com/foyez' rel='noopener noreferrer' target='_blank'>foyez</a>
     </p>
     <p>
-      <strong>Linkedin:</strong> <a href='https://www.linkedin.com/in/foyezar' rel='noopener noreferrer' target='_blank'>foyezar</a>
+      <strong>Linkedin:</strong> <a href='https://www.linkedin.com/in/foyez' rel='noopener noreferrer' target='_blank'>foyez</a>
     </p>
   </Layout>
 )
